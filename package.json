@@ -1,0 +1,45 @@
+{
+	"name": "fedex-webapp",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@darkguy10/prettier-config": "^1.0.0",
+		"@radix-ui/react-label": "^2.1.0",
+		"@react-three/drei": "^9.117.3",
+		"@react-three/fiber": "^9.0.0-rc.1",
+		"@types/csvtojson": "^2.0.3",
+		"@types/three": "^0.170.0",
+		"axios": "^1.7.8",
+		"class-variance-authority": "^0.7.1",
+		"csvtojson": "^2.0.10",
+		"framer-motion": "^11.13.1",
+		"lucide-react": "^0.465.0",
+		"next": "15.0.3",
+		"next-themes": "^0.4.4",
+		"prettier": "^3.3.3",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-test-renderer": "^18.3.1",
+		"recharts": "^2.13.3",
+		"sonner": "^1.7.1",
+		"tailwind-merge": "^2.5.5",
+		"three": "^0.170.0"
+	},
+	"devDependencies": {
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"eslint": "^8",
+		"eslint-config-next": "15.0.3"
+	},
+	"prettier": "@darkguy10/prettier-config"
+}
